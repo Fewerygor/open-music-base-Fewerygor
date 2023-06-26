@@ -36,6 +36,27 @@ body {
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   background-color: var(--color-grey-9);
+  width: var(--container);
+  max-width: 100%;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: var(--font-1);
+  font-weight: 600;
+  color: var(--color-grey-1);
+}
+
+h2 {
+  font-size: var(--font-2);
+  font-weight: 600;
+  color: var(--color-grey-1);
+}
+
+body.dark-mode {
+  background: var(--color-grey-0);
+  color: var(--color-grey-3);
 }
 
 .container {
@@ -44,3 +65,4 @@ body {
   padding: 0 1rem;
   margin: 0 auto;
 }
+
