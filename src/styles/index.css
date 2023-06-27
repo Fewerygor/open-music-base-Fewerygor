@@ -3,6 +3,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding-top: 30px;
     /* margin-top: 50px; */
     /* width: 900px; */
     
